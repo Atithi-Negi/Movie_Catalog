@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(12, 201, 176);
+}
+.top{
+    display: flex;
+    height: 125px;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+.heading{
+    color: rgb(185, 255, 127);  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 500%; 
+}
+.movie{
+    margin-top: 115px;
+    height: 288px   ;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.photo{
+    height: 278px;
+    width: 181px;  
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.info{
+    height: 278px;
+    width: 100%;    
+    margin-top: 20px;    
+}
